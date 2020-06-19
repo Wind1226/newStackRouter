@@ -1,0 +1,37 @@
+// 过程中
+.forward-push-enter-active {
+  transition: all .3s;
+  z-index: 9999 !important;
+}
+
+.forward-push-leave-active {
+  transition: all .3s;
+  z-index: 9997 !important;;
+}
+
+.forward-pop-enter-active {
+  transition: all .3s;
+  z-index: 9997 !important;;
+}
+
+.forward-pop-leave-active {
+  transition: all .3s;
+  z-index: 9999 !important;;
+}
+
+// 动画效果
+.forward-push-enter {
+  transform: translateX(100%);
+}
+
+.forward-push-leave-to {
+  transform: translateX(-100%);
+}
+
+.forward-pop-enter {
+  transform: translateX(-100%);
+}
+
+.forward-pop-leave-to {
+  transform: translateX(100%);
+}
