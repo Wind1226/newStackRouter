@@ -12,7 +12,7 @@ Vue.prototype.$lodash = Lodash;
 // 引入flex适应
 import 'lib-flexible'
 
-const driver = new BrowserDriver({mode: 'hash'});
+const driver = new BrowserDriver({mode: 'history'});
 const router = new Router({routes}, driver);
 Vue.use(installer, {router});
 
@@ -22,10 +22,8 @@ import touch from 'vue-directive-touch';
 
 Vue.use(touch);
 // 注册必须组件
-import SellerHeader from '@/components/SellerHeader'
 import Layout from '@/layout/Layout'
 
-Vue.component('SellerHeader', SellerHeader);
 Vue.component('Layout', Layout);
 // 引入UI框架
 import Vant from 'vant'
