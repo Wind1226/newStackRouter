@@ -17,7 +17,7 @@
     "less": "^3.11.2",
     "less-loader": "^6.1.0",
     "lib-flexible": "^0.3.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.26.0",
     "postcss-plugin-px2rem": "^0.8.1",
     "px2rem": "^0.5.0",
